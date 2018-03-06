@@ -1,0 +1,22 @@
+box:
+  id: syon/mkdocs-material
+  ports:
+    - "8000"
+
+dev:
+  steps:
+    - script:
+      code: |
+        mkdocs serve --dev-addr=0.0.0.0:8000
+
+build:
+  steps:
+    - script:
+      code: |
+        mkdocs build
+
+deploy:
+  steps:
+    - lukevivier/gh-pages:
+        token: $GH_TOKEN
+        basedir: site
