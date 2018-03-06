@@ -1,6 +1,8 @@
 # mkdocs-material-starterkit
 StarterKit of MkDocs with Material Design theme
 
+- https://syon.github.io/mkdocs-material-starterkit/
+
 !!! info "Recomended using __Docker__"
 
     This starter-kit uses Docker to avoid installing Python.
