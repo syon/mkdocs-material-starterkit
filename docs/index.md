@@ -1,7 +1,9 @@
 # mkdocs-material-starterkit
 StarterKit of MkDocs with Material Design theme
 
-- https://syon.github.io/mkdocs-material-starterkit/
+- __Generator:__ [MkDocs](https://www.mkdocs.org/)
+- __Theme__: [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
+- __Demo__: https://syon.github.io/mkdocs-material-starterkit/
 
 !!! info "__Docker__ is Recomended"
 
