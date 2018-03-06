@@ -1,6 +1,10 @@
 # Project information
 site_name: The Site Name
 
+# Repository
+repo_name: mkdocs-material-starterkit
+repo_url: https://github.com/syon/mkdocs-material-starterkit
+
 # Configuration
 theme:
   name: 'material'
