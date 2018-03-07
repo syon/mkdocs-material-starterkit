@@ -9,8 +9,8 @@ repo_url: https://github.com/syon/mkdocs-material-starterkit
 theme:
   name: 'material'
   palette:
-    primary: 'cyan'
-    accent: 'cyan'
+    primary: 'purple'
+    accent: 'orange'
   language: 'ja'
   feature:
     tabs: true
