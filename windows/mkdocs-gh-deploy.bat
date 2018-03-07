@@ -1,4 +1,5 @@
 @echo off
+title Deploy to GitHub Pages
 cd ..
-docker run --rm -it -p 8000:8000 -v "%cd%":/docs squidfunk/mkdocs-material gh-deploy
+docker run --rm -it -v "%cd%":/docs squidfunk/mkdocs-material gh-deploy
 pause
