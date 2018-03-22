@@ -1,5 +1,5 @@
 box:
-  id: syon/mkdocs-material
+  id: squidfunk/mkdocs-material
   entrypoint: /bin/bash -c
   ports:
     - "8000"
