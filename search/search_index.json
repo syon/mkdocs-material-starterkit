@@ -1,0 +1,99 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "mkdocs-material-starterkit\n\n\nStarterKit of MkDocs with Material Design theme\n\n\n\n\nGenerator:\n \nMkDocs\n\n\nTheme\n: \nMaterial for MkDocs\n\n\nDemo\n: \nhttps://syon.github.io/mkdocs-material-starterkit/\n\n\n\n\n\n\nDocker\n is Recomended\n\n\nThis starter-kit uses Docker to avoid installing Python.\nIt makes your computer clean.\n\n\n\n\nUsage\n\n\n\n\nMac\n\n\nWindows\n\n\n\n\nTips\n\n\nHow to automate deploying via Wercker\n\n\n\n\nSign Up for Wercker\n\n\nPush this repository to GitHub\n\n\nConnect this repository to Wercker\n\n\nGitHub\u30a2\u30af\u30bb\u30b9\u30c8\u30fc\u30af\u30f3\u3068Wercker\u306e\u8a2d\u5b9a :: GitHub Pages | Refills", 
+            "title": "mkdocs-material-starterkit"
+        }, 
+        {
+            "location": "/#mkdocs-material-starterkit", 
+            "text": "StarterKit of MkDocs with Material Design theme   Generator:   MkDocs  Theme :  Material for MkDocs  Demo :  https://syon.github.io/mkdocs-material-starterkit/    Docker  is Recomended  This starter-kit uses Docker to avoid installing Python.\nIt makes your computer clean.", 
+            "title": "mkdocs-material-starterkit"
+        }, 
+        {
+            "location": "/#usage", 
+            "text": "Mac  Windows", 
+            "title": "Usage"
+        }, 
+        {
+            "location": "/#tips", 
+            "text": "", 
+            "title": "Tips"
+        }, 
+        {
+            "location": "/#how-to-automate-deploying-via-wercker", 
+            "text": "Sign Up for Wercker  Push this repository to GitHub  Connect this repository to Wercker  GitHub\u30a2\u30af\u30bb\u30b9\u30c8\u30fc\u30af\u30f3\u3068Wercker\u306e\u8a2d\u5b9a :: GitHub Pages | Refills", 
+            "title": "How to automate deploying via Wercker"
+        }, 
+        {
+            "location": "/Mac/", 
+            "text": "Mac\n\n\n\n\nsyon/mkdocs-material-starterkit\n\n\n\n\nInstall\n\n\n\n\nDownload ZIP\n\n\nInstall Docker for Mac | Docker Documentation\n\n\n$ docker pull squidfunk/mkdocs-material\n\n\n\n\n\n\nWercker CLI\n\n\n\n\nRun\n\n\n\n\n$ wercker dev --expose-ports\n\n\nhttp://0.0.0.0:8000\n\n\n\n\nDeploy\n\n\nGitHub Pages\n\n\n$ docker run --rm -it -p \n8000\n:8000 -v \n${\nPWD\n}\n:/docs squidfunk/mkdocs-material gh-deploy\n\n\n\n\nOther Static Sites\n\n\n\n\n$ wercker build\n\n\nUpload \nsite\n directory as root", 
+            "title": "Mac"
+        }, 
+        {
+            "location": "/Mac/#mac", 
+            "text": "syon/mkdocs-material-starterkit", 
+            "title": "Mac"
+        }, 
+        {
+            "location": "/Mac/#install", 
+            "text": "Download ZIP  Install Docker for Mac | Docker Documentation  $ docker pull squidfunk/mkdocs-material    Wercker CLI", 
+            "title": "Install"
+        }, 
+        {
+            "location": "/Mac/#run", 
+            "text": "$ wercker dev --expose-ports  http://0.0.0.0:8000", 
+            "title": "Run"
+        }, 
+        {
+            "location": "/Mac/#deploy", 
+            "text": "", 
+            "title": "Deploy"
+        }, 
+        {
+            "location": "/Mac/#github-pages", 
+            "text": "$ docker run --rm -it -p  8000 :8000 -v  ${ PWD } :/docs squidfunk/mkdocs-material gh-deploy", 
+            "title": "GitHub Pages"
+        }, 
+        {
+            "location": "/Mac/#other-static-sites", 
+            "text": "$ wercker build  Upload  site  directory as root", 
+            "title": "Other Static Sites"
+        }, 
+        {
+            "location": "/Windows/", 
+            "text": "Windows\n\n\n\n\nsyon/mkdocs-material-starterkit\n\n\n\n\n\n\nDocker requires \nWindows 10 Pro\n\n\nDocker for Windows requires 64bit Windows 10 Pro with Hyper-V available.\nSee \nWhat to know before you install\n for a full list of prerequisites.\n\n\n\n\nInstall\n\n\n\n\nDownload ZIP\n\n\nInstall Docker for Windows | Docker Documentation\n\n\nwindows/docker-pull.bat\n\n\n\n\nRun\n\n\n\n\nwindows/mkdocs-serve.bat\n\n\nhttp://0.0.0.0:8000\n\n\n\n\nDeploy\n\n\nGitHub Pages\n\n\n\n\nwindows/mkdocs-gh-deploy.bat\n\n\n\n\nOther Static Sites\n\n\n\n\nwindows/mkdocs-build.bat\n\n\nUpload \nsite\n folder as root", 
+            "title": "Windows"
+        }, 
+        {
+            "location": "/Windows/#windows", 
+            "text": "syon/mkdocs-material-starterkit    Docker requires  Windows 10 Pro  Docker for Windows requires 64bit Windows 10 Pro with Hyper-V available.\nSee  What to know before you install  for a full list of prerequisites.", 
+            "title": "Windows"
+        }, 
+        {
+            "location": "/Windows/#install", 
+            "text": "Download ZIP  Install Docker for Windows | Docker Documentation  windows/docker-pull.bat", 
+            "title": "Install"
+        }, 
+        {
+            "location": "/Windows/#run", 
+            "text": "windows/mkdocs-serve.bat  http://0.0.0.0:8000", 
+            "title": "Run"
+        }, 
+        {
+            "location": "/Windows/#deploy", 
+            "text": "", 
+            "title": "Deploy"
+        }, 
+        {
+            "location": "/Windows/#github-pages", 
+            "text": "windows/mkdocs-gh-deploy.bat", 
+            "title": "GitHub Pages"
+        }, 
+        {
+            "location": "/Windows/#other-static-sites", 
+            "text": "windows/mkdocs-build.bat  Upload  site  folder as root", 
+            "title": "Other Static Sites"
+        }
+    ]
+}
