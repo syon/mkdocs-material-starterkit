@@ -1,6 +1,6 @@
 box:
   id: squidfunk/mkdocs-material
-  entrypoint: /bin/bash -c
+  entrypoint: " "
   ports:
     - "8000"
 
